@@ -52,18 +52,17 @@ header {
   /* to adjust the logo and nav bar */
 
   /* NAVBAR CONTAINER */
-.custom-navbar {
-  background-color: #1E1E1C;
-  border-radius: 12px;
-  padding: 0.5rem 1rem !important;  
-  max-width: 935px;
-  margin: 1rem auto;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
-  height: auto;
-  display: flex;
-  align-items: center;
-}
-
+  .custom-navbar {
+    background-color: #1E1E1C;
+    border-radius: 1rem;
+    padding: 0.25rem 0.75rem; /* smaller padding */
+    max-width: 850px; /* slightly narrower navbar */
+    margin: 0.5rem auto; /* smaller space above/below */
+    height: auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  }
 
 
 .custom-navbar .nav-link.active {
@@ -123,15 +122,6 @@ header {
 }
 
 
-  .custom-navbar {
-    background-color: #1E1E1C;
-    border-radius: 1rem;
-    padding: 0.5rem 1rem;
-    max-width: 935px;
-    margin: 1rem auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-  }
-  
   .logo {
     width: 60px;
     height: auto;
@@ -194,7 +184,13 @@ header {
     margin-bottom: 0.5rem;
   }
 
-  .hero-text{
+
+
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
   }
 
@@ -498,26 +494,23 @@ header {
   border-radius: 2px;
 }
 .hero-banner {
-  height: 100vh; /* full screen height */
-  background-image: url('./Images/banner.jpg'); /* adjust path */
+  position: relative;
+  height: 100vh;
+  background-image: url('./Images/banner.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
   color: white;
   text-align: center;
-  padding-top: 6rem;
 }
 
-.hero-text h1 {
-  font-size: 3rem; /* large bold text */
-  font-weight: 800;
+.hero-text h2 {
+  font-size: 2.7rem; /* large bold text */
+  font-weight: 600;
   letter-spacing: 2px;
   text-shadow: 0 0 10px rgba(0,0,0,0.3); /* optional glow */
   margin: 0;
+  white-space: nowrap;
 }
 .icon-grid{
   font-size: 1.2rem;
@@ -636,14 +629,12 @@ header {
   top: 0;
   width: 100%;
   z-index: 1000;
-
-  backdrop-filter: blur(12px); /* blur background */
-  -webkit-backdrop-filter: blur(12px); /* Safari support */
-  padding: 1.5rem 0;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 0.5rem 0;
   transition: background-color 0.3s ease;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* optional shadow for depth */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
-
 
 
 
@@ -950,22 +941,18 @@ header {
   border-radius: 2px;
 }
 .hero-banner {
-  height: 100vh; /* full screen height */
-  background-image: url('./Images/banner.jpg'); /* adjust path */
+  position: relative;
+  height: 100vh;
+  background-image: url('./Images/banner.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
   color: white;
   text-align: center;
-  padding-top: 6rem;
 }
 
 .hero-text h1 {
-  font-size: 4rem; /* large bold text */
+  font-size: 2.5rem; /* large bold text */
   font-weight: 800;
   letter-spacing: 2px;
   text-shadow: 0 0 10px rgba(0,0,0,0.3); /* optional glow */
@@ -1057,14 +1044,7 @@ header {
 
 /* for navigation */
 
-.custom-navbar {
-  background-color: #1E1E1C;
-  border-radius: 1rem;
-  padding: 0.5rem 1rem;
-  max-width: 700px;
-  margin: 1rem auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-}
+
 
 
 
