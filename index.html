@@ -58,13 +58,24 @@
     
     
          
-      <div class="hero-text">
+      <!-- <div class="hero-text">
               <h2>
                 おしりだって、洗ってほしい！<br />
                 Oshiri datte, aratte hoshii!<br />
                 <span>Your butt wants to be washed!</span>
               </h2>
+            </div> -->
+
+            <div class="hero-text">
+              <h2 class="hero-heading">
+                <span class="jp-line">おしりだって</span><br />
+                <span class="jp-line">洗ってほしい！</span><br />
+                <span class="romaji-line">Oshiri datte</span><br />
+                <span class="romaji-line">aratte hoshii!</span><br />
+                <span class="eng-line">Your <span class="highlight">butt</span> wants to be <span class="highlight">washed!</span></span>
+              </h2>
             </div>
+            
             </section>
     <main>
 
@@ -90,7 +101,7 @@
         </div>
 
           <!-- Introduction Section -->
-          <div class="row">
+          <div class="row intro">
             <div class="col-md-12 text-center mt-5 content-2 body-text">
               <h2>What is a washlet?<br /><span>ウォシュレット</span></h2>
               <p>
@@ -101,179 +112,122 @@
             </div>
           </div>
 
-          <!-- Comparison Images Section -->
-          <div class="row my-4 text-center">
-            <div class="col-md-4">
-              <img
-                class="hero-img-2 img-fluid"
-                src="./Images/washlet-draw.png"
-                alt="Washlet"
-              />
-            </div>
-            <div class="col-md-4">
-              <img
-                class="hero-img-3 img-fluid"
-                src="./Images/bidet-draw.png"
-                alt="Bidet and Toilet Paper"
-              />
-            </div>
-            <div class="col-md-4">
-              <img
-                class="hero-img-3 img-fluid"
-                src="./Images/paper-draw.png "
-                alt="Bidet and Toilet Paper"
-              />
-            </div>
-          </div>
+
+  
     
-
-          
-
-          <div class="accordion accordion-flush accordion-text" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Hygiene
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <div class="container">
-                    <div class="row align-items-start row-with-lines">
-                      <div class="col hygiene">
-                        <span>High </span>- Warm water spray, self-cleaning nozzle
-                      </div>
-                      <div class="col">
-                        Moderate – Manual control, not self-cleaning
-                      </div>
-                      <div class="col">
-                        Low – Can leave residue
-                      </div>
-                    </div>
-                  </div>
+    <!-- comparison cards -->
+     <div class="col-md-12 text-center mt-5 content-2 body-text">
+              <h2>Why is it <span class="highlight">better </span>than a bidet and toilet paper?</h2>
               </div>
-              </div>
-            </div>
 
-<!-- ------ -->
+<div class="comparison-grid-wrapper">
 
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  Convenience
-                </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <div class="container">
-                    <div class="row align-items-start row-with-lines">
-                      <div class="col">
-                        Very easy – Just press a button
-                      </div>
-                      <div class="col">
-                        Moderate – Manual control, less intuitive
-                      </div>
-                      <div class="col">
-                        Very easy – Readily available
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <div class="comparison-grid">
+      
+    <!-- Top Row: Product Headings -->
+    <div class="heading">
+      <img src="./Images/washlet-draw.png" alt="Washlet">
+      <p>Washlets</p>
+    </div>
+    <div class="heading">
+      <img src="./Images/bidet-draw.png" alt="Manual Bidet">
+      <p>Manual Bidet</p>
+    </div>
+    <div class="heading">
+      <img src="./Images/paper-draw.png" alt="Manual Bidet">
+      <p>Toilet paper</p>
+    </div>
 
-            <!-- ------ -->
+    <!-- Feature Row: Comfort Heading (spans 2 columns) -->
+    <div class="feature-section-title">Comfort</div>
 
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  Comfort
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <div class="container">
-                    <div class="row align-items-start row-with-lines">
-                      <div class="col">
-                        Heated seat, adjustable water pressure & temperature
-                      </div>
-                      <div class="col">
-                        No seat heating, limited control
-                      </div>
-                      <div class="col">
-                        Uncomfortable – No warmth, friction
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
+    <!-- Comfort Details -->
+    <div class="feature-block">
+      <p>Heated seat, adjustable water pressure & temperature</p>
+      <p class="stars">⭐⭐⭐⭐⭐</p>
+    </div>
+    <div class="feature-block">
+      <p>Cold water spray, no temperature control</p>
+      <p class="stars">⭐⭐⭐</p>
+    </div>
+    <div class="feature-block">
+      <p>Can be rough, esp. with dry or cheap paper</p>
+      <p class="stars">⭐⭐</p>
+    </div>
 
-<!-- ------ -->
+    <!-- Feature Row: Hygiene -->
+    <div class="feature-section-title">Hygiene</div>
 
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                Eco-friendliness
-              </button>
-            </h2>
-            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <div class="container">
-                  <div class="row align-items-start row-with-lines">
-                    <div class="col">
-                      Uses water but reduces paper waste
-                    </div>
-                    <div class="col">
-                      Uses water, slightly eco-friendly
-                    </div>
-                    <div class="col">
-                      High paper usage, environmental impact
-                    </div>
-                  </div>
-                </div>
-            </div>
-          </div>
-        </div>
+    <div class="feature-block">
+      <p>Warm water spray<br>Self-cleaning nozzle</p>
+      <p class="stars">⭐⭐⭐⭐⭐</p>
+    </div>
+    <div class="feature-block">
+      <p>Manual control<br>Risk of contamination</p>
+      <p class="stars">⭐⭐⭐</p>
+    </div>
+    <div class="feature-block">
+      <p>Can leave residue, "Its never clean!"</p>
+      <p class="stars">⭐⭐</p>
+    </div>
 
-        <!-- ------ -->
+    <!-- Convenience -->
+     <div class="feature-section-title">Convenience</div>
 
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingFive">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-              Cleaning Efficiency
-            </button>
-          </h2>
-          <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <div class="container">
-                <div class="row align-items-start row-with-lines">
-                  <div class="col">
-                    Extremely effective – air drying option available
-                  </div>
-                
-                  <div class="col">
-                    Good water cleaning, no air drying
-                  </div>
-                  <div class="col">
-                    Low – Relies on friction alone
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
+    <div class="feature-block">
+      <p>Very easy, just press a button</p>
+      <p class="stars">⭐⭐⭐⭐⭐</p>
+    </div>
+    <div class="feature-block">
+      <p>Requires manual aiming and adjustment</p>
+      <p class="stars">⭐⭐⭐</p>
+    </div>
+    <div class="feature-block">
+      <p> Easy, but not the most effective</p>
+      <p class="stars">⭐⭐</p>
+    </div>
+     <!-- Convenience -->
+      <div class="feature-section-title">Cleaning Efficiency</div>
 
-          
+    <div class="feature-block">
+      <p>Extremely effective – it dries your ass for you</p>
+      <p class="stars">⭐⭐⭐⭐⭐</p>
+    </div>
+    <div class="feature-block">
+      <p>Effective, but requires some toilet paper to dry</p>
+      <p class="stars">⭐⭐⭐</p>
+    </div>
+    <div class="feature-block">
+      <p> Least effective – can smear rather than clean</p>
+      <p class="stars">⭐⭐</p>
+    </div>
 
-              
-            </div>
-          </div>
+    <!-- Convenience -->
+      <div class="feature-section-title">Maintenance</div>
 
-          
-        </div>
-      </div>
-      <!-- End of container-sm -->
+    <div class="feature-block">
+      <p>Low Maintenance – Self-cleaning functions</p>
+      <p class="stars">⭐⭐⭐⭐⭐</p>
+    </div>
+    <div class="feature-block">
+      <p>Moderate – Needs regular cleaning</p>
+      <p class="stars">⭐⭐⭐</p>
+    </div>
+    <div class="feature-block">
+      <p> Low – but can cause plumbing issues if flushed in excess</p>
+      <p class="stars">⭐⭐</p>
+    </div>
+
+  </div>
+</div>
+
+
+
+    <!-- Add more rows: Hygiene, Convenience, etc. -->
+  </div>
+</div>
+
+
 
       
     </main>
@@ -288,7 +242,16 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script>
+function toggleExpand(card) {
+  // Collapse all other cards
+  document.querySelectorAll('.card-expandable').forEach(c => {
+    if (c !== card) c.classList.remove('expanded');
+  });
+
+  // Toggle current card
+  card.classList.toggle('expanded');
+}
+</script>
   </body>
 </html>
-
-<!-- style.css -->
